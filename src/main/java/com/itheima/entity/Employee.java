@@ -25,7 +25,7 @@ public class Employee implements Serializable {
 
     private String idNumber;
 
-    private Integer status;
+    private Integer status;//员工状态 0 为禁用
 
     private LocalDateTime createTime;
 
